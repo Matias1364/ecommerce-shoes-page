@@ -12,7 +12,7 @@
         top: 0;
         left: 0;
         width: 100vw;
-        height: 130vh;
+        height: 135vh;
         z-index: 1;
         display: none;
         place-content:center ;
@@ -33,6 +33,7 @@
         width: 16px;
         &:hover{
             cursor: pointer;
+            opacity: 0.5;
         }
     }
     &-other{

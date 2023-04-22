@@ -425,7 +425,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 135vh;
   z-index: 1;
   display: none;
   place-content: center;
@@ -452,7 +452,7 @@ body {
 }
 .modal-gallery-close:hover {
   cursor: pointer;
-  content: url("../images/icon-close-orange.svg");
+  opacity: 0.5;
 }
 .modal-gallery-other {
   display: flex;
