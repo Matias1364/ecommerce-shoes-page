@@ -7,10 +7,15 @@
         @media(max-width:1115px){
             visibility: hidden;
         }
-        @include m.modal-background;
+        background-color: v.$Black-modal;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 130vh;
+        z-index: 1;
         display: none;
         place-content:center ;
-        //display: grid;
     }
     &-images{
         background-image: url('../images/image-product-1.jpg');
@@ -28,7 +33,6 @@
         width: 16px;
         &:hover{
             cursor: pointer;
-            content: url('../images/icon-close-orange.svg');
         }
     }
     &-other{

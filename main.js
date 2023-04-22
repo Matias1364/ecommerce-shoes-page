@@ -59,6 +59,7 @@ deleteBtn.addEventListener('click',()=>{
     refresh()
 })
 const imageContainer=document.querySelector('.gallery-images')
+imageContainer.style.backgroundImage =`url(./images/image-product-1.jpg)`;
 const previousBtn=document.querySelector('.gallery-previous')
 const nextBtn=document.querySelector('.gallery-next')
 let imageUrl=1;
